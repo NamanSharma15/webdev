@@ -1,0 +1,63 @@
+{
+    "INSPIRE Scholarship 2022-23 Scholarship for Higher Education (SHE)": {
+        "description": "INSPIRE Scholarship 2023 for Higher Education (SHE) is a scholarship programme implemented by the Department of Science and Technology (DST), Government of India. It is a scholarship scheme that comes under Innovation in Science Pursuit for Inspired Research (INSPIRE), a flagship programme of DST.",
+        "available_for": [
+            "undergraduate",
+            "masters"
+        ],
+        "main_field": "Natural and Basic Sciences",
+        "type": "annual",
+        "scholarship_money": "80000",
+        "eligiblity_criteria": "The applicant must be within the age group of 17-22 years.\n The candidate must be among the top 1% of the successful students in terms of aggregate marks in his/her Class 12 board exam. \n The applicant must be enrolled in courses of Natural and Basic Sciences at the BSc, BS, and Integrated MSc/MS level in the same year of passing Class 12. \n The applicants who are among the top 10,000 rankers in the Joint Entrance Examination of IIT, AIEEE (top 20,000 rankers) & cleared CBSE-Medical (AIPTM) and have opted to study Natural/Basic Sciences are eligible. \n The candidates who are admitted to the Indian Institutes of Science Education and Research (IISER), National Institute of Science Education and Research (NISER), Department of Atomic Energy Centre for Basic Sciences (DAE-CBS) at the University of Mumbai for pursuing courses in Natural/Basic Sciences leading to B.Sc. and M.Sc. degree are also eligible. \n The applicants who are KVPY (Kishore Vaigyanik Protsahan Yojna), National Talent Search Examination (NTSE), Olympiad Medallists and Jagadish Bose National Science Talent Search (JBNSTS) scholars and are pursuing courses in Natural/Basic Sciences leading to B.Sc. and M.Sc. degree are eligible. \n The subjects that come under the scope of the Scholarship for Higher Education (SHE) are mentioned in the table given below.",
+        "application_link": "https://www.online-inspire.gov.in/",
+        "image_link":""
+    },
+    "Abdul Kalam Technology Innovation National Fellowship": {
+        "description": "Abdul Kalam Technology Innovation National Fellowship 2023-24 is a research opportunity offered by the Indian National Academy of Engineering (INAE) to outstanding engineers to recognize, encourage and support their translational research for achieving excellence in engineering, innovation, and technology development",
+        "available_for": [
+            "masters",
+            "doctorate"
+        ],
+        "main_field": "Engineering, Innovation and Technology",
+        "type": "monthly",
+        "scholarship_money": "25000",
+        "eligiblity_criteria": "The scheme is applicable to Indian nationals as well as Overseas Citizens of India (OCI) working in permanent positions in engineering profession in public funded institutions in India.\n The applicant should possess adequate professional qualification and hold at least a bachelor’s degree. \n This applicant should have a minimum of five (5) years of service left in the parent organization as on the date of the award.\n The applicant should not be holding any other fellowship and in the event of selection, he/she will have to opt for only one of the fellowships.",
+        "application_link": "https://www.inae.in/research-innovation/abdul-kalam-technology-innovation-national-fellowship/"
+    },
+    "AAI Sports Scholarship Scheme in India 2022-23": {
+        "description":"AAI scholarship scheme is an initiative by the Sports Control Board, Airports Authority of India. The Scholarship for Indian students between the age of 14 to 25 years. This scholarship will not exceed 97 for the open category and 20 forwards of employees of the Airports Authority of India.",
+        "main_field":"Any",
+        "available_for": [
+            "undergraduate",
+            "masters"
+        ],
+        "type": "monthly",
+        "scholarship_money": "16000",
+        "eligiblity_criteria": "Be a permanent Indian citizen\n Represent India in sub-junior/Junior/Senior National Championships, All India Inter-University Tournaments, and National School Games in 2022-23 and onwards\n Be in the age group of 14 to 25 years as on July 31, 2023\n Have participated at the state, national, or international level in the last 3 years\n",
+        "application_link":"https://www.aai.aero/en"
+    },
+    "Glow and lovely Career Foundation Scholarship":{
+        "description":"Glow and Lovely Career Foundation Scholarship is a CSR initiative of Hindustan Unilever Limited (HUL) to promote and encourage education among girl students in India. The scholarship programme empowers under-privileged female students in the age group of 15 to 30 years, by offering them financial assistance for their Higher Education. ",        "main_field":"Any",
+        "available_for": [
+            "undergraduate",
+            "masters",
+            "doctorate"
+        ],
+        "type": "onetime",
+        "scholarship_money": "25000-50000",
+        "eligiblity_criteria":"Open for girl students between the age of 15 to 30 years\n Applicants must be applying for/pursuing UG/PG studies at a  government-recognized institution in India.\n Each applicant must have passed Class 10 and Class 12 with at least 60% marks\n Annual family income of the female applicants must be less than INR 6,00,000 (6 Lakhs)",
+        "application_link":"https://www.glowandlovelycareers.in/en/scholarship-for-women"
+    },
+    "National Fellowship for Persons with Disabilities":{
+        "description":"The HEPSN scheme is basically meant for creating an environment at the higher education institutions to enrich higher education learning experiences for differently-abled persons. Creating awareness about the capabilities of differently-abled persons, construction aimed at improving accessibility, purchase of equipment to enrich learning, etc., are the broad categories of assistance under this scheme.",
+        "main_field":"Any",
+        "available_for": [
+            "masters",
+            "doctorate"
+        ],
+        "type": "annual",
+        "scholarship_money": "100000-800000",
+        "":"Be admitted to an M.Phil or Ph.D degree program at a university or academic institution \n Be pursuing research on a full-time basis\nHave a disability\nHave completed the required admission formalities \n Obtain a disability certificate from a notified medical authority",
+        "application_link":"https://www.ugc.gov.in/nfpwd/"
+    }
+}
