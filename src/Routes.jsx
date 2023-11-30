@@ -4,6 +4,10 @@ import App from "./pages/Home";
 import Signup from "./pages/Signup";
 import Navbar from './components/Navbar';
 import Scholarship from "./pages/Scholarship";
+import University from "./pages/University";
+import SearchBar from "./components/SearchBar";
+import ContactPage from "./pages/Contact";
+import About1 from "./pages/About";
 const ProjectRoutes = () => {
     const backend_uri = process.env.REACT_APP_B_HOST
     const [scholarships, setscholarships] = useState([]);
@@ -23,7 +27,11 @@ const ProjectRoutes = () => {
           <Routes>
             <Route exact path="/" element={<App />} />
             <Route exact path="/scholarship-signup" element={<Signup getScholarships={getScholarships}/>} />
-            <Route exact path="/scholarship-result" element={<Scholarship />} />
+            <Route exact path="/scholarship-result" element={<Scholarship scholarships={scholarships}/>} />
+            <Route path="/university/:name" element={<University/>}/>
+            <Route path="/search" element=    {<SearchBar/> }/>
+            <Route path="/contact" element=    {<ContactPage/> }/>
+            <Route path="/about" element = {<About1/>}/>
           </Routes>
         </Router>
       </React.Suspense>

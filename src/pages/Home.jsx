@@ -9,27 +9,15 @@ const Home = () => {
       {"title":"University Listing",
         "img":"tool1",
         "text":"Over 1000 different types of Univeristies",
-        "link":""},
+        "link":"/search"},
       {"title":"Scholarship Finder",
         "img":"tool2",
         "text":"Over 7 different types of Scholarships",
         "link":"/scholarship-signup"},
-      {"title":"Resume Builder",
-        "img":"tool3",
-        "text":"Build Resume with 10 templates",
-        "link":""},
-      {"title":"Course Suggestions",
-        "img":"tool4",
-        "text":"Find the best courses and learn new skills",
-        "link":""},
-      {"title":"Test Suggestions",
-        "img":"tool5",
-        "text":"Test your knowledge and skills",
-        "link":""},
       {"title":"Career Counselling",
         "img":"tool6",
         "text":"Get help from our counsellers",
-        "link":""}
+        "link":"https://www.ncs.gov.in/"}
     ]
     let reviews = [
       {"name":"James Hook",
@@ -73,11 +61,6 @@ const Home = () => {
       <Card data={cards[0]}/>
       <Card data={cards[1]}/>
       <Card data={cards[2]}/>
-      </div>
-      <div className='mt-8 gap-20 justify-center flex'>
-      <Card data={cards[3]}/>
-      <Card data={cards[4]}/>
-      <Card data={cards[5]}/>
       </div>
       </div>
       <div className='mt-12 flex mb-20'>

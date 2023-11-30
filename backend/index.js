@@ -13,11 +13,13 @@ const searchJson1 = XLSX.utils.sheet_to_json(search_sheet1)
 const searchFile2 = XLSX.readFile(__dirname+"/dataset_combined.xlsx")
 const search_sheet2 = searchFile2.Sheets[searchFile2.SheetNames[0]]
 const searchJson2 = XLSX.utils.sheet_to_json(search_sheet2)
+const jsonData = JSON.parse(fs.readFileSync(`${__dirname}/scholarshipData.json`,"utf-8"))
 const app = express()
 app.use(body.json());
 app.use(cors());
 app.listen(3050,()=>{
     console.log("Server is running on port : 3050")
+    console.log(jsonData)
 })
 app.get("/universityList",(req,res)=>{
     let list = searchJson1.map((item)=>item.Name)
@@ -41,7 +43,11 @@ const d = async(dfq)=>{
     item.India == dfq.out &&
     item.Religion=="Hindu" &&
     item.Outcome=="1")
-    return d;
+    let list = []
+    for(const i of d){
+      list.push(jsonData[i.Name])
+    }
+    return list;
 }
 app.post("/getScholarship",async (req,res)=>{
     console.log(req.body)

@@ -81,11 +81,11 @@ useEffect(()=>{
             </div>
             <div className='flex gap-6 ml-4 mt-4'>
             <div className='flex gap-1 items-center'>
-            <input type="radio" onChange={onChange} value="In" name="out" className='w-[2rem] h-[2rem] mx-0'/>
+            <input type="radio" onChange={onChange} value="Out" name="out" className='w-[2rem] h-[2rem] mx-0'/>
             <label htmlFor="male">Yes</label>
             </div>
             <div className='flex gap-1 items-center'>
-            <input type="radio" onChange={onChange} value="Out" name="out" className='w-[2rem] h-[2rem] mx-0'/>
+            <input type="radio" onChange={onChange} value="In" name="out" className='w-[2rem] h-[2rem] mx-0'/>
             <label htmlFor="female">No</label>
             </div>
             </div>

@@ -85,7 +85,7 @@ const Education = ({setcurrentForm,setnum,details,onChange,getScholarships}) => 
     </div>
     <div className='flex justify-center mx-auto'>
     <button className='text-center px-[1rem] text-[0.9rem] font-semibold text-white rounded-2xl mt-[1.7rem] bg-[#2AC2FF] h-[2.1rem] ' 
-    onClick={()=>{console.log(details);getScholarships(details);hist("/scholarship-result")}}
+    onClick={async()=>{console.log(details);await getScholarships(details);hist("/scholarship-result")}}
     >Submit</button>
     </div>
     </div>
