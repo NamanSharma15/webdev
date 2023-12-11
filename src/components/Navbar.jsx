@@ -11,7 +11,7 @@ const Navbar = () => {
                 <img src="/images/logo.svg" alt=""  className='scale-[0.8] mb-2'/>
                 <div className='mx-auto'>
                     <ul className='flex gap-12 mt-[1.9rem] text-[1.1rem]'>
-                    <li className='font-semibold text-[#232C6D] '> <a href="/">Home</a></li>
+                    <li className=''> <a href="/">Home</a></li>
                     <li className=''><a href="/about">About</a></li>
                     <li>
                     <a

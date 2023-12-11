@@ -58,7 +58,7 @@ const SearchBar = () => {
     </button>
     </div>
   </div>
-        </div>
+        </div> 
     </div>
     </div>
     <div className='flex items-center justify-center' style={{"backgroundImage":"url(/images/univbg.jpg)"}}>

@@ -6,6 +6,7 @@ const Education = ({setcurrentForm,setnum,details,onChange,getScholarships}) => 
     years[0] = "Select your Graduation Year"
     let annual = ["Select the Pecentage Range","90-100","80-90","70-80","60-70","Less the 60"]
     let qualification = ["Select your Qualification","Undergraduate","Postgraduate","Doctrate"]
+    let intrest = ["Select your Intrests","Engineering" ,"Archaeology" ,"Mathematics" ,"Agriculture" ,"Biology" ,"Anthropology" ,"Economics" ,"Political science" ,"Biomedical Sciences"]
     useEffect(()=>{
         setnum({"1":{"b":"#DED7D78C","c":"#000000AD"},"2":{"b":"#DED7D78C","c":"#000000AD"},"3":{"b":"#207CFF","c":"white"}})
       },[])
@@ -39,9 +40,11 @@ const Education = ({setcurrentForm,setnum,details,onChange,getScholarships}) => 
         <div className='flex gap-[5rem] mt-4'>
         <div>
         <div className='text-[0.9rem] font-bold ml-3'>
-        Field
+        Intrests
         </div>
-        <input name='field' value={details.field} onChange={onChange} type="text" className='px-4 mt-3 text-[0.8rem] font-semibold rounded-3xl w-[19.9375rem] focus:bg-white focus:border border-[#C68E8E] py-2 outline-[#C68E8E] bg-[#F1F4F8]' placeholder='Enter your Field'/>
+        <select name='qualification' value={details.qualification} onChange={onChange} className='px-4 mt-3 text-[0.8rem] font-semibold rounded-3xl w-[19.9375rem] focus:bg-white focus:border border-[#C68E8E] py-2 outline-[#C68E8E] bg-[#F1F4F8]'>
+            {intrest.map((item)=><option value={item}>- {item} -</option>)}
+        </select>
         </div>
         <div className=' mr-[10.25rem]'>
         <div className='text-[0.9rem] font-bold ml-3'>

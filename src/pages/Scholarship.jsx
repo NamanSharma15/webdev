@@ -7,7 +7,7 @@ const Scholarship = ({scholarships}) => {
         console.log(scholarships)
         if(scholarships.length===0){
             hist("/scholarship-signup")
-            alert("Select correct infomation to find scholarships")
+            alert("Select correct infomation to find scholarships or scholarships not availble")
         }
     },[scholarships])
     return(
